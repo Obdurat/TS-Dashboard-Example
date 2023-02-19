@@ -1,8 +1,11 @@
 import React from 'react'
+import PieComp from '../../Components/Charts/Pie/Pie'
 
 const Pie = () => {
   return (
-    <div>Pie</div>
+    <div>
+      <PieComp />
+    </div>
   )
 }
 

@@ -1,8 +1,11 @@
 import React from 'react'
+import BarComp from '../../Components/Charts/Bar/Bar'
 
 const Bar = () => {
   return (
-    <div>Bar</div>
+    <div>
+      <BarComp />
+    </div>
   )
 }
 
