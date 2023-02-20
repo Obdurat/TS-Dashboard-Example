@@ -10,8 +10,8 @@ const PieComp = () => {
   });
 
   return (
-    <Box>
-      <Chart options={config.options} series={config.series} type={"donut"} width="500" />
+    <Box sx={{ display: 'flex', justifyContent: 'center', margin: '1rem' }}>
+      <Chart options={config.options} series={config.series} type={"donut"} width="350" height="350" />
     </Box>
   )
 }

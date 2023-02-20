@@ -21,8 +21,8 @@ const LineComp = () => {
   });
 
   return (
-    <Box>
-      <Chart options={config.options} series={config.series} type={"line"} width="500" />
+    <Box sx={{ display: "flex", justifyContent: "center" }}>
+      <Chart options={config.options} series={config.series} type={"line"} width="500" height="500" />
     </Box>
   )
 }

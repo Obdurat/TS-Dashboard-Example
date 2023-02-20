@@ -21,8 +21,8 @@ const BarComp = () => {
   });
 
   return (
-    <Box>
-      <Chart options={config.options} series={config.series} type={"bar"} width="500" />
+    <Box sx={{ display: "flex", justifyContent: "center" }}>
+      <Chart options={config.options} series={config.series} type={"bar"} width="500" height="250"  />
     </Box>
   )
 }
