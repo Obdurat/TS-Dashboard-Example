@@ -134,7 +134,7 @@ function Dashboard() {
               </IconButton>
             </Box>
           </Box>
-          <Box height="20rem" m="1rem 0 0 0">
+          <Box height="32rem">
             <Line />
           </Box>
         </Box>

@@ -1,3 +1,4 @@
+import { WidthFull } from '@mui/icons-material';
 import { Box } from '@mui/system';
 import React, { useState } from 'react'
 import Chart from 'react-apexcharts'
@@ -6,7 +7,7 @@ const LineComp = () => {
   const [config, setConfig] = useState({
     options: {
       chart: {
-        id: "basic-bar"
+        id: "basic-line",
       },
       xaxis: {
         categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998]
@@ -21,8 +22,8 @@ const LineComp = () => {
   });
 
   return (
-    <Box sx={{ display: "flex", justifyContent: "center" }}>
-      <Chart options={config.options} series={config.series} type={"line"} width="500" height="500" />
+    <Box sx={{ display: "block", justifyContent: "center", height: "100%",  }}>
+      <Chart options={config.options} series={config.series} type={"line"} height="100%" width="100%" />
     </Box>
   )
 }
